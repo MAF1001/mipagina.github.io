@@ -1,0 +1,63 @@
+*{
+    margin:0;
+
+}
+
+body{
+
+    background:goldenrod ;
+}
+
+.container,
+footer {
+    width: 90%;
+    max-width: 1100px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+.cabecera{
+
+    background:lightblue ;
+    width: 100%;
+    height: 100px;
+}
+
+
+.navegador{
+
+    background:goldenrod ;
+    width: 100%;
+    height: 100px;
+}
+
+.principal{
+
+    background:seagreen ;
+    width: 100%;
+    height: calc(100vh - 200px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion{
+
+    background:cornflowerblue ;
+    width: 70%;
+    height: 100%;
+}
+
+.columna{
+
+    background:olive;
+    width: 25%;
+    height: 100%;
+}
+
+.pie{
+
+    background:lightblue;
+    width: 100%;
+    height: 100px;
+}
+
